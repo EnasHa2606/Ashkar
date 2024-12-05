@@ -1,0 +1,94 @@
+.dental-restoration {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dental-restoration .overlap-group-wrapper {
+  height: 1024px;
+  width: 1440px;
+}
+
+.dental-restoration .overlap-group {
+  background-image: url(./rectangle-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1024px;
+  position: relative;
+  width: 1417px;
+}
+
+.dental-restoration .home-return {
+  height: 34px;
+  left: 30px;
+  position: absolute;
+  top: 54px;
+  transform: rotate(180deg);
+  width: 107px;
+}
+
+.dental-restoration .vector {
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 37px;
+}
+
+.dental-restoration .img {
+  height: 32px;
+  left: 59px;
+  position: absolute;
+  top: 2px;
+  transform: rotate(-180deg);
+  width: 47px;
+}
+
+.dental-restoration .frame {
+  align-items: center;
+  border: 1px solid;
+  border-color: #1877f2;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  justify-content: center;
+  left: 1233px;
+  overflow: hidden;
+  padding: 14px 41px;
+  position: absolute;
+  top: 52px;
+  width: 165px;
+}
+
+.dental-restoration .text-wrapper {
+  color: #1877f2;
+  font-family: "Open Sans Hebrew-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -9.5px;
+  margin-top: -11.5px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.dental-restoration .div {
+  color: #1877f2;
+  font-family: "Amiri-Bold", Helvetica;
+  font-size: 61px;
+  font-weight: 700;
+  left: 424px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 27px;
+  width: 591px;
+}
